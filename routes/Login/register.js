@@ -13,7 +13,7 @@ const { createUser } = require("../../config/database");
 
 
 // Register
-router.post("/test", (req, res) => {
+router.post("/user", (req, res) => {
   const userData = req.body;
   let errors = [];
   debugger
